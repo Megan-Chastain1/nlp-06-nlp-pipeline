@@ -24,6 +24,12 @@ repository-code: "https://github.com/denisecase/nlp-06-nlp-pipeline"
 url: "https://github.com/denisecase/nlp-06-nlp-pipeline"
 license: MIT
 
+  - family-names: Chastain
+    given-names: Megan
+    affiliation: "Northwest Missouri State University, USA"
+ repository-code: "https://github.com/Megan-Chastain1/nlp-06-nlp-pipeline"
+url: "https://github.com/Megan-Chastain1/nlp-06-nlp-pipeline"
+
 abstract: |
   Web Mining and Applied NLP Example Project 6 - extracting structured data
   from HTML web pages using an EVTAL pipeline, BeautifulSoup, Pandas, and spaCy.
