@@ -57,8 +57,8 @@ from nlp.config_chastain import (
 )
 from nlp.stage01_extract import run_extract
 from nlp.stage02_validate_case import run_validate
-from nlp.stage03_transform_case import run_transform
-from nlp.stage04_analyze_case import run_analyze
+from nlp.stage03_transform_chastain import run_transform
+from nlp.stage04_analyze_chastain import run_analyze
 from nlp.stage05_load import run_load
 
 # ============================================================

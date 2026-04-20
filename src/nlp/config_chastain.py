@@ -52,5 +52,5 @@ PROCESSED_PATH: Path = DATA_PATH / "processed"
 
 # TODO: In your custom app, change the output file names from case_
 # to something that represents YOUR custom project.
-RAW_HTML_PATH: Path = RAW_PATH / "chastain1_raw.html"
-PROCESSED_CSV_PATH: Path = PROCESSED_PATH / "chastain1_processed.csv"
+RAW_HTML_PATH: Path = RAW_PATH / "chastain2_raw.html"
+PROCESSED_CSV_PATH: Path = PROCESSED_PATH / "chastain2_processed.csv"
