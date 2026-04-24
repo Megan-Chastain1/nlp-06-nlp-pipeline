@@ -52,33 +52,46 @@ All of these sources of data require the text to be preprocessed and cleaned. Th
 
 - Word frequency
   - Word frequency was computed by breaking the text into tokens, counting how many times individual tokens appeared, then dividing that number by the total token count.
-- Context or co-occurrence
+- Context
+  - Context as a signal looks at the sequence of words surrounding a target token. It is useful for dealing with words with multiple meanings.
+- Co-occurrence
+  - Co-occurence measures the frequency of two words appearing near eachother.  The signal is useful for differentiating noise from good data.
 - Keyword extraction
+  - Keyword extraction is the process of identifying information dence tokens. These are words that can be used to explain an entire text.
 - Special signals
-- Sentiment or subjectivity
+  - Special signals are non-textual but still convey important information like "who", "what", "where", and "when". They help determine how or why the text was written.
+- Sentiment
+  - Sentiment is a signal that measures the emotional value of the text. It can be positive, negative, or neutral. Certain tokens are given a numeric value: +1, 0, -1. These are determined by the analyst.
+- Subjectivity
+  - Subjectivity measures the opinion of the text, either subjective or objective and any bias that may be present.
 
 ## Insights
-Describe what your analysis revealed:
 
-patterns, trends, or notable findings
-anything surprising or unexpected
-what made the results useful or meaningful
+Each of the projects done throughout this course delved into determining signals, cleaning and analyzing text, and loading that analysis as a visualization or CSV document.
+
+The insights gained were about technique effectiveness, usability, finding tips and tricks to make transforming and analyzing easier.
+
+I know that learning how to extract data from an HTML website or plain text document are probably what I would be using if I needed to implement NLP in my future career. Using subjectivity signals, special signals, fequency signals would all be benefitial when reviewing scientific articles. Also, sentiment signals would be really helpful for analyzing survey data.
 
 ## Representative Work
-Provide links to 2–3 of your strongest projects.
 
-For each project:
+[Web Documents](https://github.com/Megan-Chastain1/nlp-05-web-documents)
+  - This repository showcases my skills on extracting text from HTML web site. It shows how I transformed the text and created visualizations.
 
-include a clickable link
-provide 1–2 sentences describing what it does and why it is representative
+[API text](https://github.com/Megan-Chastain1/nlp-04-api-text-data)
+  - This repository showcases my skills on extracting text from and API. this one also includes how I transformed the text and created visualizations.
+
+[NLP Pipeline](https://github.com/Megan-Chastain1/nlp-06-nlp-pipeline)
+  - This repository is an example of how I implemented an EVTAL pipeline using a HTML website. Here, I combined the most skills I developed throughout this course.
 
 ## Skills
-Be explicit about what you can do. Avoid general statements.
 
-Examples:
+The skills I've developed include:
 
-Python data processing
-working with text data
-handling messy or inconsistent inputs
-structuring repeatable pipelines
-communicating results professionally with Markdown and visuals
+- Python data processing
+- Working with and cleaning text data
+- Extracting data from APIs and HTML websites
+- Validating text structure
+- Adding valuable columns and analyses to projects
+- Setting up repeatable pipelines
+- Creating visualizations
